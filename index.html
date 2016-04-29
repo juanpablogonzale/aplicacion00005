@@ -1,0 +1,388 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplicacion cinco</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<style type="text/css">
+body,td,th {
+	color: #000;
+}
+body {
+	background-color: #FFF;
+}
+</style>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/13.jpg','imagenes/34.jpg','imagenes/38.jpg','imagenes/31.jpg','imagenes/43.jpg','imagenes/45.jpg','imagenes/47.jpg','imagenes/49.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" 	   data-back-btn-theme="b">
+<h1><center>DIA MUNDIAL DE LA MADRE TIERRA</center></h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+
+<h1>IMAGENES DEL AMBIENTE EN MI COMUNIDAD</h1>
+<div>
+</div>
+
+<!-- Start WOWSlider.com -->
+<iframe src="visor/index.html" style="width:978px;height:150px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+</div>
+</div>
+
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Que dia se celebra el dia de la tierra</h2>
+<p>muestra la celebracion</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Consejos para cuidar la tierra</h2>
+<p>muestra la informacion</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Cambio climatico en la tiera</h2>
+<p>Muestra los cambios</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Que beneficios nos da la tierra al ser humano?</h2>
+<p>Muestra los beneficios</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Tipos de contaminacion en la tierra</h2>
+<p>Muestra las recomndaciones</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Porque se celebra el dia de de la tierra</h2>
+<p>Muestra la informacion</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Problemas que hay en mi comunidad del medio ambiente</h2>
+<p>Muestra la informacion</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Las Tres R (RRR)</h2>
+<p>Muestra la informacion</p>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+  <div>
+  <img src="imagenes/persona_azul.png" width="46" height="46">
+  </div>
+  <div>
+  <h4>Aplicacion cinco</h4>
+  <h4>Juan Pablo Gonzalez Varela</h4>
+  </div>
+  </div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>Dia En Que Se Celebra El Dia De La Tierra</h1>
+ 
+  </div>
+  <div data-role="content" align="center">
+  <div>
+  <h2>El Día de la Tierra comenzó a celebrarse en los Estados Unidos de América el 22 de abril de 1970.</h2>
+  <br>
+  
+  <div>
+    <p>&nbsp;</p>
+    <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/34.jpg',1)"><img src="imagenes/29.jpg" width="400" height="383" id="Image7"></a></p>
+  </div>
+  </div>
+  </div>
+  <div data-role="footer" data-theme="a">
+  <h4>App5,Gonzalez Varela Juan Pablo</h4>
+  </div>
+  </div>
+  </div>
+ 
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>Algunos Consejos Para Cuidar La Tierra</h1>
+ </div>
+<div data-role="content" align="center">
+ <div>
+ <h2>
+ <br>
+ 1.Ahorra agua siempre que puedas.
+ <br>
+ 2.Apaga las luces.
+ <br>
+ 3.Utiliza menos el coche.
+ <br>
+ 4.Cuida y reutiliza las hojas de papel.
+ <br>
+ 5.Utiliza pilas recargables.
+ <br>
+ 6.Evita comprar y usar aerosoles
+ </h2></div>
+ 
+ <div>
+ <center>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('lui','','imagenes/31.jpg',1)"><img src="imagenes/30.jpg" width="400" height="370" id="lui"></a>
+ </center> </div>
+</div>
+ <div data-role="footer" data-theme="a">
+ <h4>App5,Gonzalez Varela Juan Pablo</h4>
+ </div>
+ </div>
+ </div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Cambios climaticos en la tierra</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h3>Desde 1997 a la fecha han habido muchos cambios y avances paulatinos en la opinión científica, política y pública sobre el cambio climático y el calentamiento global.
+ <br>
+ <br>
+   <center> Cambio Climático</center>
+   <br>
+  es un cambio significativo y duradero de los patrones locales o globales del clima, las causas pueden ser naturales, como por ejemplo, variaciones en la energía que se recibe del Sol, erupciones volcánicas, circulación oceánica, procesos biológicos y otros, o puede ser causada por influencia antrópica (por las actividades humanas).
+ <br>
+ <br>
+ <center>El Calentamiento Global </center>
+ <br>
+  es un aumento de la temperatura de la atmósfera terrestre que se ha estado observando desde finales del siglo XIX. Se ha observado un aumento de aproximadamente 0.8 ºC desde que se realizan mediciones confiables, dos tercios de este aumento desde 1980. Hay una certeza del 90% (actualizada a 95% en el 2013) de que la causa del calentamiento es el aumento de gases de efecto invernadero que resultan de las actividades humanas como la quema de combustibles fósiles (carbón, gasolina, gas natural y petróleo).
+  </h3></div>
+<div>
+ <center>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('laira','','imagenes/43.jpg',1)"><img src="imagenes/42.gif" width="214" height="215" id="laira"></a>
+ </center> 
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>App5,Gonzalez Varela Juan Pablo</h4>
+ </div>
+ </div>
+ </div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Beneficios Que Nos Da La Tierra</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>
+ <center>La posibilidad de vivir en un Mundo bastante equilibrado</center>
+ <br>
+Por ejemplo la tierra nos brinda Oxigeno, agua, Y Recursos para sobrevivir 
+Tambien nos protege de los rayos solares con su Campo Magnetico y su densa atmosfera
+Tiene estaciones la cuales nos hace desarrollarnos en un ambiente ni tan frigido o Calido.
+-Nos Protege de las Amenzas del espacio 
+- Hay tierra firme donde poder vivir
+-siempre hay alimento
+- tierras fertiles para cultiva</h2>
+ <div>
+ <center>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('liojkf','','imagenes/45.jpg',1)"><img src="imagenes/44.jpg" width="655" height="340" id="liojkf"></a>
+ </center> </div>
+ 
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>App5,Gonzalez Varela Juan Pablo</h4>
+ </div>
+ </div>
+ </div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Tipos de contaminacio en la tierra</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>
+ <center>Los principales tipos de contaminación son:</center>
+ <br>
+<center>Contaminación del Agua</center>
+<br>
+Como su nombre lo sugiere, “Contaminación del agua” es el tipo de contaminación que supone la contaminación distintos cuerpos de agua. Varias criaturas acuáticas dependen de estos cuerpos de agua y sus características naturales nutritivos para apoyar su vida.
+<br>
+<br>
+<center>Contaminación Acustica</center>
+<br>
+la contaminación acústica es el tipo de contaminación que se produce por diferentes fuentes de audio que está causando la sensación de irritación, distracción para nuestro medio ambiente. 
+<br>
+<br>
+<center>Contaminación Lumínica</center>
+<br>
+ La Asociación Internacional Cielo Oscuro define la contaminación lumínica a los efectos nocivos de la luz artificial en la atmósfera de la Tierra y el medio ambiente.
+ <br>
+ <br>
+ 
+<center> Contaminación Térmica</center>
+ <br>
+ La contaminación térmica se refiere a la adición de grandes cantidades de calor residual para el medio ambiente, las causas de la contaminación térmica son casi las mismas que las que causa la contaminación del aire.
+</h2>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/0yc-Lal-FA0" frameborder="0" allowfullscreen></iframe>
+ <div>
+ <center>
+ </center> </div>
+ </div>
+ </div>
+ <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('eeggf','','imagenes/47.jpg',1)"><img src="imagenes/46.png" width="320" height="266" id="eeggf"></a></center>
+ <div data-role="footer" data-theme="a">
+   <h4>App5,Gonzalez Varela Juan Pablo</h4>
+ </div>
+ </div>
+ </div>
+ 
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Porque se celebra el 22 de abril el dia de la tierra</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>Rumores persistentes  sostiene que el 22 de abril fue elegido porque es el cumpleaños de Vladimir Lenin, el fundador de la Unión Soviética.
+
+
+"El objetivo de Lenin era destruir la propiedad privada, objetivo que también comparten los ambientalistas”  publicó en 2004 la web Capitalism Magazine.
+
+
+Kathleen Rogers, presidenta de la organización del Día de la Tierra en Washington y una de las primeras fundadoras en la organización del Día de la Tierra, se burla de la teoría.
+
+
+Según Kathleen, en 1970 el  22 de abril fue elegido como Día de la Tierra en parte, porque ese año cayó en un miércoles, el día de la semana para fomentar una amplia participación en las manifestaciones del medio ambiente celebrada en todo el país. </h2></div>
+<div>
+ <center>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/38.jpg',1)"><img src="imagenes/37.jpg" width="600" height="314" id="Image4"></a>
+ </center> </div>
+ </div>
+
+
+
+
+ <div data-role="footer" data-theme="a">
+ <h4>App5,Gonzalez Varela Juan Pablo</h4>
+ </div>
+ </div>
+ </div>
+ 
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Problemas ambientales que hay en mi comunidad</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>
+ <center>1.- Fugas de agua:</center>
+ uno de los problemas son las fugas de agua el cual genera que se este desperdiciando toda esa agua y hace que toda la calle se encharque de agua y no haya ni por donde pasar por los charcos que se juntan
+ <br>
+ <br>
+ <center>2.- Basura en las calles</center>
+ <br>
+ mucha gente que sale a sus trabajos de mañanas sale con montones de bolsas y la deja emero en una esquina y eso hace que los perros olfaten y habran las bolsas y asi despues regar toda la basura por toda la calle
+ <br>
+ <br>
+ <center>3.-Quema de basura</center>
+ <br>
+ por lo regular los vecinos en las noches como no tienen calentador calientan el agua con plasticos haciendo fuego con ellos y eso hace que se espanda por toda la colonia y nosotros estemos oliendo todo ese humo </h2></div>
+<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('esfdyd','','imagenes/49.jpg',1)"><img src="imagenes/48.jpg" width="400" height="267" id="esfdyd"></a>
+  </center> 
+  </div>
+ </div>
+
+
+
+
+ <div data-role="footer" data-theme="a">
+ <h4>App5,Gonzalez Varela Juan Pablo</h4>
+ </div>
+ </div>
+ </div>
+
+ 
+ <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Informacion de las tres r</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>Las tres erres (3R) es una regla para cuidar el medio ambiente, específicamente para reducir el impacto humano sobre el medio ambiente mediante un uso más eficiente de nuestros recursos
+ <br>
+<center>1. Reducir</center>
+<br>
+Comprar menos
+Utilizar menos recursos (agua, energía, gasolina, etc.)
+<br>
+<center>2. Reutilizar</center>
+<br>
+Reutilizar significa alargar la vida de cada producto desde cuando se compra hasta cuando se tira.
+
+<center>3. Reciclar</center>
+<br>
+Reciclar es la erre más común y menos eficaz. Se trata de rescatar lo posible de un material que ya no sirve para nada (comúnmente llamado basura) y convertirlo en un producto nuevo.
+ </h2></div>
+<div>
+  <center>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('lusgy','','imagenes/7.jpg',1)"><img src="imagenes/6.jpg" width="393" height="222" id="lusgy"></a>
+  </center> </div>
+ </div>
+
+
+
+
+ <div data-role="footer" data-theme="a">
+ <h4>App5,Gonzalez Varela Juan Pablo</h4>
+ </div>
+ </div>
+ </div>
+
+
+
+
+
+</body>
+ </html>
